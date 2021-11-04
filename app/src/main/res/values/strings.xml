@@ -5,4 +5,6 @@
     <string name="str_subs">-</string>
     <string name="str_multiply">*</string>
     <string name="str_divide">/</string>
+    <string name="equal">=</string>
+    <string name="answer">Answer</string>
 </resources>

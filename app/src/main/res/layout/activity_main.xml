@@ -68,4 +68,26 @@
         android:layout_marginStart="@dimen/margin_left"
         android:layout_marginEnd="@dimen/margin_end"/>
 
+    <Button
+        android:id="@+id/btn_equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_text1"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:text="@string/equal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_equal"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/margin_ans"
+        android:layout_marginTop="@dimen/margin_top_ans"
+        android:layout_marginEnd="@dimen/margin_ans"
+        android:layout_marginBottom="@dimen/margin_ans"
+        android:text="@string/answer"
+        android:textSize="34sp" />
+
 </RelativeLayout>
