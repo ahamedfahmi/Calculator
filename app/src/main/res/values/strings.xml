@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="str_input">Enter a Number </string>
+    <string name="str_add">+</string>
+    <string name="str_subs">-</string>
+    <string name="str_multiply">*</string>
+    <string name="str_divide">/</string>
+</resources>

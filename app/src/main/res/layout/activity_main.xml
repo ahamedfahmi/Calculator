@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:autofillHints="true"
+        android:gravity="center"
+        android:hint="@string/str_input"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="@color/teal_700"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_end"/>
+
+    <LinearLayout
+        android:id="@+id/operators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_text"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_add"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_subs"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_multiply"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_divide" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/input_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@id/operators"
+        android:autofillHints="true"
+        android:gravity="center"
+        android:hint="@string/str_input"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="@color/teal_700"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_end"/>
+
+</RelativeLayout>
